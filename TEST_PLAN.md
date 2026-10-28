@@ -22,3 +22,19 @@
 
 - average tempertautre 
     - Stadtname: Case-sensitiveness testen
+
+
+"""Starter tests for the weather module.
+ 
+These tests deliberately cover only ordinary examples. T
+
+
+ 
+
+ 
+# def test_average_temperature_Errors():
+#      # len(temperatures) == 0
+#     with pytest.raises(ValueError, match="No measurements found for city."):
+#         filter_by_temperature(, 7, 0)
+#         filter_by_temperature(5, 0, 0)
+ 
