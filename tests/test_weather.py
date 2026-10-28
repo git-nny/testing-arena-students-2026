@@ -32,7 +32,7 @@ def test_parse_time_Errors():
     # minute < 0 or minute > 59
     with pytest.raises(ValueError, match="Minute must be between 0 and 59."):
             # parse_time("15:-7") --> isdigit() = False
-            parse_time("16:69")
+            parse_time("16:60")
 
 def test_parse_time_regular_time():
     assert parse_time("14:21") == 861
